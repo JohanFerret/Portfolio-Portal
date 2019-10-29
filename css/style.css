@@ -15,7 +15,7 @@ body {
     box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
 }
 
-.zone2 {
+.zone-2 {
     cursor:pointer;
     color:#FFF;
     font-size:2em;
@@ -29,13 +29,6 @@ body {
     font-size: 0.7em;
     margin: 0;
     min-height: 70px;
-}
-
-.sub-nav {
-    display: flex;
-    list-style: none;
-    margin: 0;
-    padding: 0;
 }
 
 .sticky {
@@ -55,7 +48,7 @@ body {
     }
 }
 
-.li1 {
+.li-1 {
     padding: 20px;
 }
 
@@ -70,13 +63,13 @@ a:hover {
     font-size: 1.1em;
 }
 
-.a2 {
+.a-2 {
     color: limegreen;
     text-decoration: none;
     transition: all 0.2s linear;
 }
 
-.a2:hover {
+.a-2:hover {
     text-shadow: 2px 2px green;
     font-size: 1.1em;
 }
@@ -94,7 +87,7 @@ a:hover {
     margin: 20px;
 }
 
-.parent {
+.box-grid {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 0.1fr 1fr;
@@ -104,7 +97,7 @@ a:hover {
     margin: 0px;
 }
 
-.div1 { 
+.box-title { 
     grid-area: 1 / 1 / 2 / 2; 
     padding: 10px;
     margin: 0px;
@@ -112,7 +105,7 @@ a:hover {
     font-size: 0.5em;
 
 }
-.div2 { 
+.box-content { 
     grid-area: 2 / 1 / 3 / 2; 
     padding: 20px;
     margin: 0px;
@@ -120,12 +113,19 @@ a:hover {
     font-size: 0.5em;
 }
 
-.div3 { 
+.box-sub-nav { 
     grid-area: 3 / 1 / 4 / 2; 
     padding: 10px;
     margin: 0px;
     font-size: 0.3em;
     height: 20px;
+}
+
+.sub-nav {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
 .footer {
@@ -134,7 +134,7 @@ a:hover {
     font-size: 1.2em;
     margin: 0;
     text-align: center;
-    height: 20px;
+    height: 60px;
 }
 
 /***********************************************************************
