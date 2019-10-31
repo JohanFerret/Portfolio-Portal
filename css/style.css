@@ -18,7 +18,6 @@ body {
 .zone-2 {
     cursor:pointer;
     color:#FFF;
-    font-size:2em;
     border-radius:4px;
     border:1px solid #bbb;
 }
@@ -26,7 +25,7 @@ body {
 .main-nav {
     display: flex;
     list-style: none;
-    font-size: 0.7em;
+    font-size: 0.8em;
     margin: 0;
     min-height: 70px;
 }
@@ -43,10 +42,12 @@ body {
 /* Keeps navbar links in place when scaled down */
 @media only screen and (max-width: 600px) {
     .main-nav {
-        font-size: 0.7em;
+        font-size: 0.8em;
         padding: 0;
     }
 }
+
+
 /* Keeps spacing between nav links */
 .li-1 {
     padding: 20px;
@@ -118,8 +119,8 @@ a:hover {
     grid-area: 3 / 1 / 4 / 2; 
     padding: 10px;
     margin: 0px;
-    font-size: 0.3em;
-    height: 20px;
+    font-size: 0.4em;
+    height: 25px;
 }
 /* Bottom box sub nav links list */
 .sub-nav {
